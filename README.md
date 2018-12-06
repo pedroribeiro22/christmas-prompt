@@ -7,26 +7,23 @@
   </a>
 </h1>
 
-[![Build Status](https://semaphoreci.com/api/v1/nelsonmestevao/dotfiles/branches/master/badge.svg)][semaphoreci]
 
-## Install
+## Download
+
+You might want to clone or download this repository by hitting the green button above or following the instructions below:
 
 ```shell
-git clone https://github.com/pedroribeiro22/dotfiles ~/.dotfiles
-git clone https://github.com/nelsonmestevao/spells   ~/.spells
-cd ~/.dotfiles
-sh install.sh
+git clone https://github.com/pedroribeiro22/isItChristmasYet
 ```
 
-## Uninstall
+## Run
+
+Just make sure you're in the correct and folder
+and execute the following command:
 
 ```shell
-cd ~/.dotfiles
-sh uninstall.sh
-cd ~
-rm -rf ~/.dotfiles
-rm -rf ~/.spells
+./script
 ```
 
 ## Credits
-* [Nelson Estevão](https://github.com/nelsonmestevao)
+* [Hugo Carvalho](https://github.com/HugoCarvalho99)
