@@ -22,7 +22,7 @@ and execute the following command:
 ./script.sh
 ```
 
-You probably want to figure out a way to make it run every 2 minutes, according to your operative system. Here's the
+You probably want to figure out a way to make it run every 2 minutes, according to your operative system. Here's a
 [link](https://www.garron.me/en/linux/run-cronjob-every-5-five-minutes-hours.html) to a website where you'll find a way to do it.
 
 ## Credits
