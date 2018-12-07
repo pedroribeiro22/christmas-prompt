@@ -22,7 +22,7 @@ Just make sure you're in the correct and folder
 and execute the following command:
 
 ```shell
-./script
+./script.sh
 ```
 
 ## Credits
