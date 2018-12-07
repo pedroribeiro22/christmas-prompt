@@ -18,7 +18,7 @@ git clone https://github.com/pedroribeiro22/isItChristmasYet
 
 ## Run
 
-Just make sure you're in the correct and folder
+Just make sure you're in the correct folder
 and execute the following command:
 
 ```shell
