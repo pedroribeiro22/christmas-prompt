@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+XDG_RUNTIME_DIR=/run/user/$(id -u)
+export XDG_RUNTIME_DIR
+
+TODAY=$(date +"%j")
+CHRISTMAS=$(date -d 25-Dec +"%j")
+
+notify-send -t 16000 "There are $((CHRISTMAS - TODAY)) days left until Christmas!"
+paplay ~/.songs/christmas-song.wav
+
