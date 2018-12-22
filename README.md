@@ -12,6 +12,14 @@ above or following the instructions below:
 ```shell
 git clone https://github.com/pedroribeiro22/christmas-prompt
 cd christmas-prompt
+crontab -e
+```
+Then a Vim tab will open and you should paste this in the file:
+```
+0 0 * * * $PWD/howLongUntilChristmas
+```
+Then just run:
+```
 ./install.sh
 ```
 
